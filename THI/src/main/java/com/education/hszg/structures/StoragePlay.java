@@ -31,7 +31,6 @@ public class StoragePlay {
         System.out.println("First element is " + storageLimited.get(0));
 
         //play with StackStorage
-
         NoDirectAccessIntegerStorage myStack= new IntegerStack();
         myStack.init();
         myStack.push(3);
