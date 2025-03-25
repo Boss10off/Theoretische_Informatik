@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.education.hszg.sort.impl.TestBubbleSort" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-11-21T08:38:03" hostname="KOR-NB01" time="0.003">
+  <properties/>
+  <testcase name="testSort(7-7-7-7-7-7,       7-7-7-7-7-7) [0]" classname="com.education.hszg.sort.impl.TestBubbleSort" time="0.002"/>
+  <testcase name="testSort(9-8-7-6-5-4,       4-5-6-7-8-9) [1]" classname="com.education.hszg.sort.impl.TestBubbleSort" time="0.0"/>
+  <testcase name="testSort(1-2-3-4-5-6,       1-2-3-4-5-6) [2]" classname="com.education.hszg.sort.impl.TestBubbleSort" time="0.0"/>
+  <testcase name="testSort(7-7-7-1234567-7,   7-7-7-7-1234567) [3]" classname="com.education.hszg.sort.impl.TestBubbleSort" time="0.0"/>
+  <testcase name="testSort(7-7-7-4-7,         4-7-7-7-7) [4]" classname="com.education.hszg.sort.impl.TestBubbleSort" time="0.0"/>
+  <testcase name="testSort(7,                 7) [5]" classname="com.education.hszg.sort.impl.TestBubbleSort" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
