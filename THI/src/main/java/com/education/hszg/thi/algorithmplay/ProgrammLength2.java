@@ -1,4 +1,4 @@
-package com.education.hszg.thi;
+package com.education.hszg.thi.algorithmplay;
 
 public class ProgrammLength2 {
 
