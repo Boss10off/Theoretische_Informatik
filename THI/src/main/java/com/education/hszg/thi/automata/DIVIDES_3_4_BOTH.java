@@ -28,4 +28,16 @@ public class DIVIDES_3_4_BOTH {
         }
         return false;
     }
+    public static void main(String[] args) {
+        DIVIDES_3_4_BOTH d = new DIVIDES_3_4_BOTH();
+        String word = "aaa";
+        System.out.println("Can " + word + "be divided by 3 or 4 or both " + d.run(0,word));
+        word = "aa";
+        System.out.println("Can " + word + "be divided by 3 or 4 or both " + d.run(0,word));
+        word = "aaaa";
+        System.out.println("Can " + word + "be divided by 3 or 4 or both " + d.run(0,word));
+        word = "aaaaaaaaa";
+        System.out.println("Can " + word + "be divided by 3 or 4 or both " + d.run(0,word));
+
+    }
 }
