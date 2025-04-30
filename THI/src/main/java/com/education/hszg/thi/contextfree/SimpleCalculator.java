@@ -29,7 +29,7 @@ public class SimpleCalculator {
                     temp2=0;
                     break;
                 case '1': case '2': case '3': case '4': case '5': case '6': case '7': case '8': case '9': case '0':
-                    temp2 =temp2 + ((next -'0')*times);
+                    temp2 +=((next -'0')*times);
                     times*=10;
                     break;
             }
@@ -44,7 +44,7 @@ public class SimpleCalculator {
                 "p2p35 == plus 2 (plus 3 5): " + calculator.calculate("p2p35")
         );
         System.out.println(
-                "-9+3+42 == min 9 (plus 3 minus(4 2)) : " + calculator.calculate("-9+3+42")
+                "-9+3+42 == min 9 (plus 3 minus(4 2)) : " + calculator.calculate("-9+3-42")
         );
     }
 }
