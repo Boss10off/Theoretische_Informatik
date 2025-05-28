@@ -23,6 +23,16 @@ public class SimpleCalculator {
                     times=1;
                     temp2=0;
                     break;
+//                case '*':
+//                    temp *= temp2;
+//                    times=1;
+//                    temp2=0;
+//                    break;
+//                case '/':
+//                    temp /= temp2;
+//                    times=1;
+//                    temp2=0;
+//                    break;
                 case '-':case 'm':
                     temp -= temp2;
                     times=1;
@@ -44,7 +54,8 @@ public class SimpleCalculator {
                 "p2p35 == plus 2 (plus 3 5): " + calculator.calculate("p2p35")
         );
         System.out.println(
-                "-9+3+42 == min 9 (plus 3 minus(4 2)) : " + calculator.calculate("-9+3-42")
+                "-9+3-42 == min 9 (plus 3 minus(4 2)) : " + calculator.calculate("-9+3-42")
         );
+        System.out.println(calculator.calculate("-9+3*42"));
     }
 }
